@@ -1,0 +1,22 @@
+{
+  "name": "swekiiz",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swekiiz/swekiiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swekiiz/swekiiz/issues"
+  },
+  "homepage": "https://github.com/swekiiz/swekiiz#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.8.2"
+  }
+}
