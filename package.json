@@ -4,7 +4,8 @@
   "description": "-",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/swekiiz/swekiiz#readme",
   "devDependencies": {
-    "@vercel/node": "^1.8.2"
+    "@vercel/node": "^1.8.2",
+    "vercel": "^20.1.0"
   }
 }

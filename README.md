@@ -2,7 +2,7 @@
 
 - 💻 I’m currently learning computer engineering.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://swekiiz.vercel.app/assets/catTyping.gif)
 
 <!--
 **swekiiz/swekiiz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
