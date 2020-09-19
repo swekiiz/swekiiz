@@ -1,8 +1,22 @@
 import React from "react";
 import { css } from "../lib";
+
 export function Picture() {
   const style = css`
-    @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+    @font-face {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      src: url("../assets/fonts/montserrat-v15-latin-700.eot");
+      src: local("Montserrat Bold"), local("Montserrat-Bold"),
+        url("../assets/fonts/montserrat-v15-latin-700.eot?#iefix")
+          format("embedded-opentype"),
+        url("../assets/fonts/montserrat-v15-latin-700.woff2") format("woff2"),
+        url("../assets/fonts/montserrat-v15-latin-700.woff") format("woff")
+          url("../assets/fonts/montserrat-v15-latin-700.ttf") format("truetype"),
+        url("../assets/fonts/montserrat-v15-latin-700.svg#Montserrat")
+          format("svg");
+    }
   `;
   return (
     <svg
@@ -16,7 +30,7 @@ export function Picture() {
       <rect width="100%" height="100%" fill="hsla(0, 5%, 5%, 1)" />
       <text
         id="text"
-        fontSize="342"
+        fontSize="548"
         fontFamily="Montserrat"
         fill="url(#skyGradient)"
         x="50%"
@@ -36,7 +50,8 @@ export function Picture() {
         />
       </path>
       <text
-        fontSize="64"
+        fontSize="86"
+        // letterSpacing="-6"
         fontFamily="Montserrat"
         fill="url(#textGradient)"
         x="50%"
@@ -47,7 +62,7 @@ export function Picture() {
         </textPath>
       </text>
       <linearGradient id="skyGradient" x1="100%" y1="100%">
-        <stop offset="0%" stop-color="lightblue" stop-opacity=".5">
+        <stop offset="0%" stopColor="lightblue" stopOpacity=".5">
           <animate
             attributeName="stop-color"
             values="lightblue;blue;red;hsla(0, 5%, 5%, 1);hsla(0, 5%, 5%, 1);red;purple;white;white"
@@ -55,7 +70,7 @@ export function Picture() {
             repeatCount="indefinite"
           />
         </stop>
-        <stop offset="100%" stop-color="lightblue" stop-opacity=".5">
+        <stop offset="100%" stopColor="lightblue" stopOpacity=".5">
           <animate
             attributeName="stop-color"
             values="lightblue;orange;purple;hsla(0, 5%, 5%, 1);hsla(0, 5%, 5%, 1);purple;lightblue;white;white"
@@ -71,7 +86,7 @@ export function Picture() {
         </stop>
       </linearGradient>
       <linearGradient id="textGradient" x1="100%" y1="100%">
-        <stop offset="0%" stop-color="lightblue" stop-opacity=".5">
+        <stop offset="0%" stopColor="lightblue" stopOpacity=".5">
           <animate
             attributeName="stop-color"
             values="lightblue;blue;red;white;white;red;purple;white;white"
@@ -79,7 +94,7 @@ export function Picture() {
             repeatCount="indefinite"
           />
         </stop>
-        <stop offset="100%" stop-color="lightblue" stop-opacity=".5">
+        <stop offset="100%" stopColor="lightblue" stopOpacity=".5">
           <animate
             attributeName="stop-color"
             values="lightblue;orange;purple;white;white;purple;lightblue;white;white"
