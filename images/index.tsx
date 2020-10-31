@@ -1,13 +1,13 @@
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { Picture } from "./Picture";
-
-const images: { [name: string]: React.FC } = { Picture };
+import { Isag_introduce } from "./Isag_introduce"
+const images: { [name: string]: React.FC } = { Picture, Isag_introduce };
 
 export async function renderPicture(imageName: string) {
   const start = Date.now();
   let markup;
-  for (;;) {
+  while (true) {
     try {
       markup = renderToStaticMarkup(<Image name={imageName} />);
       break;
