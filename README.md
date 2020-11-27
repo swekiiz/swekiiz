@@ -8,7 +8,7 @@
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=swekiiz&layout=compact&langs_count=10)](https://github.com/anuraghazra/github-readme-stats) -->
 
-<h5 style="text-align: left;">Languages and Tools :</h5>
+<h3 style="text-align: left;">Languages and Tools : </h5>
 <p style="text-align: left;">
 
 <a href="https://git-scm.com" target="_blank">
@@ -228,6 +228,7 @@
 </a> -->
 
 </p>
+
 <!--
 - 🔭 I’m currently working on ...
 - 👯 I’m looking to collaborate on ...
