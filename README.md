@@ -8,7 +8,7 @@
 
 <!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=swekiiz&layout=compact&langs_count=10)](https://github.com/anuraghazra/github-readme-stats) -->
 
-<h3 style="text-align: left;">Languages and Tools : </h5>
+<!-- <h3 style="text-align: left;">Languages and Tools : </h5>
 <p style="text-align: left;">
 
 <a href="https://git-scm.com" target="_blank">
@@ -223,11 +223,11 @@
 <img src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="36" height="36"/>
 </a>
 
-<!-- <a href="" target="_blank">
+ <a href="" target="_blank">
 <img src="" alt="" width="36" height="36"/>
-</a> -->
+</a> 
 
-</p>
+</p> -->
 
 <!--
 - 🔭 I’m currently working on ...
