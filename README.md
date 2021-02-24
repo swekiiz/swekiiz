@@ -1,6 +1,6 @@
 ## Hi my name is best 👋
 
-- 💻 I’m currently learning computer engineering.
+- 💻 I’m currently learning computer engineering at KMITL.
 
 ![introduce](https://swekiiz.vercel.app/api?name=Picture)
 
