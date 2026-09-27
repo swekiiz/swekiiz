@@ -1,7 +1,5 @@
 ## Hi my name is best 👋
 
-- 💻 I’m currently learning computer engineering at KMITL.
-
 ![introduce](https://swekiiz.vercel.app/api?name=Picture)
 
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=swekiiz&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy) -->
